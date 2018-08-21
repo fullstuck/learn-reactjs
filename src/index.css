@@ -26,18 +26,23 @@ ol, ul {
 }
 
 .square {
-  background: #fff;
+  background: #56d2dd;
+  border-radius: 9px;
   border: 1px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 45px;
   font-weight: bold;
   line-height: 34px;
-  height: 54px;
+  height: 90px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 54px;
+  width: 90px;
+}
+
+.square:hover {
+  background-color: #3d4250;
 }
 
 .square--green {
@@ -69,7 +74,7 @@ ol, ul {
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 12px;
   cursor: pointer;
 }
 
